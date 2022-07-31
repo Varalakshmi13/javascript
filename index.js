@@ -98,17 +98,37 @@
 // result = g1 != g2  //not equal
 
 
-let num1 = 7
-let num2 = 6
+// let num1 = 7
+// let num2 = 6
 
-let str1 = "happy"
-let str2 = "life"
+// let str1 = "happy"
+// let str2 = "life"
 
-let res1 = num1 + num2
-console.log("the addition of 7 and 6 is " +  res1)
-let res2 = str1 + str2 
-console.log(res2)    //concatination
+// let res1 = num1 + num2
+// console.log("the addition of 7 and 6 is " +  res1)
+// console.log(`the sum of ${num1} and ${num2} is ${res1}`)
+// let res2 = str1 + str2 
+// console.log(res2)    //concatination
 
+// let num = 6
 
+// if (num % 2 === 0) {
+//     console.log("Even")
+//     console.log("Bye")
+// }    
+// else {
+//     console.log("Odd")
+// }
 
+let num1 = 9
+let num2 =34
+let num3 = 98 
 
+if (num1 > num2 && num1 > num3) {
+    console.log(num1)
+}
+else if (num2 > num3) {
+    console.log(num2)
+} 
+else 
+    console.log(num3)
