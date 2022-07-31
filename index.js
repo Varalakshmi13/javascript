@@ -110,6 +110,8 @@
 // let res2 = str1 + str2 
 // console.log(res2)    //concatination
 
+
+////odd and even
 // let num = 6
 
 // if (num % 2 === 0) {
@@ -120,15 +122,31 @@
 //     console.log("Odd")
 // }
 
-let num1 = 9
-let num2 =34
-let num3 = 98 
+////another way for odd and even
+// let num = 9
+// let result = ""
+// result = num%2==0? "Even" : "Odd"    /// ternary operator
+// console.log(result)
 
-if (num1 > num2 && num1 > num3) {
-    console.log(num1)
-}
-else if (num2 > num3) {
-    console.log(num2)
-} 
-else 
-    console.log(num3)
+
+// let num1 = 9
+// let num2 =34
+// let num3 = 98 
+
+// if (num1 > num2 && num1 > num3) {
+//     console.log(num1)
+// }
+// else if (num2 > num3) {
+//     console.log(num2)
+// } 
+// else 
+//     console.log(num3)
+
+
+let i = 1
+while (i<=5)
+{
+    console.log("Hello")
+    i++
+}    
+
