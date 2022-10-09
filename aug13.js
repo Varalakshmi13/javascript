@@ -4,3 +4,7 @@
 //while - pre condition
 //do while - post condition
 
+while (i <= 5)
+{
+    console.log("hello")
+}
